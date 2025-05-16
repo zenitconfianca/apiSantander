@@ -315,9 +315,8 @@ def baixar_pdf_do_link(api_session: requests.Session, download_url: str, output_
 if __name__ == "__main__":
     # (O bloco if __name__ == "__main__" permanece o mesmo da resposta anterior, 
     #  com a correção para LOG_LEVEL_CONFIG_ATUAL e as extrações de JSON ajustadas)
-    AMBIENTE_ATUAL = "PRODUCAO" 
-    # AMBIENTE_ATUAL = "SANDBOX"
-    
+    AMBIENTE_ATUAL = "SANDBOX" # Usar PRODUCAO ou SANDBOX
+        
     LOG_LEVEL_CONFIG_ATUAL = LOG_LEVEL_GLOBAL 
     
     for handler in logging.root.handlers[:]: logging.root.removeHandler(handler) 
