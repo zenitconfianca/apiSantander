@@ -1,2 +1,2 @@
 # apiSantander
-Scripts em Pyhton manipulando api Santander
+Scripts em Python3 manipulando api Santander
